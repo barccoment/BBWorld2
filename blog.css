@@ -100,7 +100,7 @@ flex-flow: row nowrap;
 -ms-flex-flow:row nowrap;
 justify-content: space-between;
 padding:20px;
-overflow:none;
+overflow:auto;
 
 }
 .left
