@@ -13,7 +13,7 @@ body{
     display:flex;
     position:relative;
     height:180px;
-    width:100%;
+   max-width:1330px;
     border: 1px solid rgb(0, 0, 0);
     overflow:hidden;
     padding:0px;
@@ -83,12 +83,9 @@ a:visited{
 a:hover{
     color:rgb(128, 0, 128);
 }
-@media screen and (min-width:400px)
+@media screen and (max-width:500px)
 {
-    .main-body .footer.header{ 
-        overflow:auto;
-    }
-    
+   
 }
 .main-body
 {
@@ -99,7 +96,8 @@ display:flex;
 position:relative;
 border:1px solid rgb(0, 0, 0);
 height:1500px;
-width:97%;
+max-width:1300px;
+min-width:1200px;
 border-radius:20px;
 overflow:hidden;
 flex-flow: row nowrap;
@@ -220,6 +218,7 @@ text-align:center;
     position:relative;
     top:50px;
     border-radius: 20px;
+    overflow:auto;
 }
 .footer{
     border:1px solid rgb(0, 0, 0);
@@ -227,7 +226,7 @@ text-align:center;
     -ms-display:flex;
     -moz-display:flex;
     -webkit-display:flex;
-    width:100%;
+    width:1340px;
     height:80px;
     background: rgb(192, 192, 192);
 }
@@ -308,7 +307,8 @@ left:550px;
 .container
 {
  border:1px solid rgb(255, 255, 255);
- width:97%;
+ max-width:1330px;
+min-width:1200px;
  height:3000px;
  display:flex;
  -ms-display:flex;
@@ -326,7 +326,7 @@ left:550px;
 .left_main
 { 
     border:1px solid rgb(255, 255, 255);
-    width:800px;
+    width:950px;
     height:3000px;
     position:relative;
     box-shadow:0px 1px 2px 5px rgb(192, 192, 192);
