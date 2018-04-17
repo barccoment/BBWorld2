@@ -17,7 +17,7 @@ body{
     border: 1px solid rgb(0, 0, 0);
     overflow:hidden;
     padding:0px;
-    margin:4px;
+    margin:2px;
     justify-content:space-between;
     background:url("image/blue.jpg");
     border-radius:20px;
@@ -83,13 +83,7 @@ a:visited{
 a:hover{
     color:rgb(128, 0, 128);
 }
-@media screen and (min-width:400px)
-{
-    .main-body .footer.header{ 
-        overflow:auto;
-    }
-    
-}
+
 .main-body
 {
 display:flex;
@@ -129,6 +123,7 @@ overflow:none;
     box-shadow:0px 1px 2px 5px rgb(192, 192, 192);
     position:relative;
     left:3px;
+    overflow:auto;
 }
 .right
 {
