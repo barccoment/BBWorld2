@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>
+    POP UP
+</title>
+<style>
+.pop
+{
+position:relative;
+-moz-user-select:none;
+-ms-user-select:none;
+-webkit-user-select:none;
+user-select: none;
+cursor: pointer;
+margin:80px;
+padding:30px 20px;
+float:right;
+top:200px;
+right:100px;
+left:30px;
+width:100px;
+height: 30px;
+}
+ .pop_ads
+{
+background:transparent;
+border:1px solid black;
+width:600px;
+height:700px;
+position:relative;
+margin:-80px 40px;
+bottom:250px;
+right:800px;
+float:left;
+visibility:hidden;
+cursor: pointer;
+}
+.pop .show
+{
+visibility: visible;
+animation: pop 1s;
+-ms-animation:pop 1s;
+-moz-animation: pop 1s;
+-webkit-animation: pop 1s;
+}
+@-webkit-keyframes pop{
+    from{opacity:0}
+    to{opacity:1}
+}
+@keyframes pop{
+    from{
+        opacity:2}
+    to{
+        opacity:4}
+}
+</style>
+    </head>
+    <body>
+    <div class="pop" onclick="Pop()">
+            Click Me!
+    <div class="pop_ads"id="pop_ads">
+  <a href="google.com">Google Ads!</a>
+  
+    </div>
+    </div>
+<script>
+    function Pop()
+    {
+var pop =document.getElementById("pop_ads");
+pop.classList.toggle("show");
+    }
+</script>
+    </body>
+</html>
