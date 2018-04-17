@@ -1,8 +1,5 @@
 body{
-
-    margin:0;
     background: rgb(255, 255, 255);
-    box-shadow: border-box;
 }
 
 /*max-height:1500px*/
@@ -17,7 +14,7 @@ body{
     border: 1px solid rgb(0, 0, 0);
     overflow:hidden;
     padding:0px;
-    margin:4px;
+    margin:2px;
     justify-content:space-between;
     background:url("image/blue.jpg");
     border-radius:20px;
@@ -83,10 +80,14 @@ a:visited{
 a:hover{
     color:rgb(128, 0, 128);
 }
+<<<<<<< HEAD
 @media screen and (max-width:500px)
 {
    
 }
+=======
+
+>>>>>>> origin/master
 .main-body
 {
 display:flex;
@@ -96,15 +97,19 @@ display:flex;
 position:relative;
 border:1px solid rgb(0, 0, 0);
 height:1500px;
+<<<<<<< HEAD
 max-width:1300px;
 min-width:1200px;
+=======
+width:100%;
+min-width:90%;
+>>>>>>> origin/master
 border-radius:20px;
 overflow:hidden;
 flex-flow: row nowrap;
 -ms-flex-flow:row nowrap;
 justify-content: space-between;
 padding:20px;
-overflow:none;
 
 }
 .left
@@ -123,10 +128,12 @@ overflow:none;
     border:1px solid transparent;
     border-radius:20px;
     width:600px;
+    min-width:500px;
     height:1500px;
     box-shadow:0px 1px 2px 5px rgb(192, 192, 192);
     position:relative;
     left:3px;
+    overflow:auto;
 }
 .right
 {
@@ -244,6 +251,7 @@ text-align:center;
 .post1{
     border:1px solid rgb(192, 192, 192);
     width:600px;
+    min-width:500px;
     height:220px;
     position: relative;
     top:5px;
@@ -274,6 +282,7 @@ text-align:center;
 {
     border:1px solid transparent;
     width:495px;
+    min-width:400px;
     height:200px;
     display:inline-block;
     position: relative;
@@ -307,8 +316,13 @@ left:550px;
 .container
 {
  border:1px solid rgb(255, 255, 255);
+<<<<<<< HEAD
  max-width:1330px;
 min-width:1200px;
+=======
+ width:97%;
+    min-width:90%;
+>>>>>>> origin/master
  height:3000px;
  display:flex;
  -ms-display:flex;
