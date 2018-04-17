@@ -93,7 +93,7 @@ display:flex;
 position:relative;
 border:1px solid rgb(0, 0, 0);
 height:1500px;
-max-width:1300px;
+width:1300px;
 min-width:1200px;
 width:100%;
 min-width:90%;
@@ -311,7 +311,7 @@ left:550px;
  border:1px solid rgb(255, 255, 255);
 
  max-width:1330px;
-min-width:1200px;
+width:1200px;
  width:97%;
     min-width:90%;
  height:3000px;
