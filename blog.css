@@ -22,6 +22,29 @@ body {
 
 
 }
+@media (min-width: 576px) {
+    .main-body {
+      max-width: 100%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .main-body {
+      max-width: 100%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .main-body{
+      max-width: 100%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .main-body {
+      max-width: 100%;
+    }
+  }
   
   @-ms-viewport {
     width: device-width;
@@ -107,19 +130,19 @@ padding:20px;
 }
 @media (min-width: 576px) {
     .main-body {
-      max-width: 1330px;
+      max-width: 1800px;
     }
   }
   
   @media (min-width: 768px) {
     .main-body {
-      max-width: 1330px;
+      max-width: 1800px;
     }
   }
   
   @media (min-width: 992px) {
     .main-body{
-      max-width: 1330px;
+      max-width: 1800px;
     }
   }
   
@@ -275,6 +298,29 @@ text-align:center;
     -webkit-display:flex;
     border-radius:10px;
 }
+@media (min-width: 576px) {
+    .main .post1 {
+      max-width: 600px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .main .post1 {
+      max-width: 600px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .main .post1{
+      max-width: 600px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .main .post1{
+      max-width: 600px;
+    }
+  }
 
 .ads5{
     border:1px solid transparent;
@@ -349,19 +395,19 @@ left:550px;
   
   @media (min-width: 576px) {
     .container {
-      max-width: 1330px;
+      max-width: 1800px;
     }
   }
   
   @media (min-width: 768px) {
     .container {
-      max-width: 1330px;
+      max-width: 1800px;
     }
   }
   
   @media (min-width: 992px) {
     .container {
-      max-width: 1330px;
+      max-width: 1800px;
     }
   }
   
