@@ -86,13 +86,6 @@ a:visited{
 a:hover{
     color:rgb(128, 0, 128);
 }
-<<<<<<< HEAD
-=======
-@media screen and (max-width:500px)
-{
-   
-}
->>>>>>> origin/master
 .main-body
 {
 display:flex;
@@ -102,14 +95,7 @@ display:flex;
 position:relative;
 border:1px solid rgb(0, 0, 0);
 height:1500px;
-<<<<<<< HEAD
 width:97%;
-=======
-width:1300px;
-min-width:1200px;
-width:100%;
-min-width:90%;
->>>>>>> origin/master
 border-radius:20px;
 overflow:hidden;
 flex-flow: row nowrap;
@@ -344,15 +330,7 @@ left:550px;
 .container
 {
  border:1px solid rgb(255, 255, 255);
-<<<<<<< HEAD
  
-=======
-
- max-width:1330px;
-width:1200px;
- width:97%;
-    min-width:90%;
->>>>>>> origin/master
  height:3000px;
  display:flex;
  -ms-display:flex;
