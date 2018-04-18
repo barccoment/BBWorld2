@@ -15,7 +15,7 @@ body {
     position:relative;
     height:180px;
    width:1380px;
-   max-width: 1380px;
+   max-width: 1340px;
     border: 1px solid rgb(0, 0, 0);
     overflow:hidden;
     padding:0px;
@@ -99,8 +99,7 @@ display:flex;
 position:relative;
 border:1px solid rgb(0, 0, 0);
 height:1500px;
-width:1350px;
-max-width: 1350px;
+width:1300px;
 border-radius:20px;
 overflow:hidden;
 flex-flow: row nowrap;
@@ -115,7 +114,6 @@ padding:20px;
     border:1px solid transparent;
     border-radius:20px;
     max-width:350px;
-    width:350px;
     height:1500px;
     line-height:10px;
     position:relative;
@@ -126,8 +124,7 @@ padding:20px;
 {
     border:1px solid transparent;
     border-radius:20px;
-    width:900px;
-    max-width:900px;
+    width:600px;
     height:1500px;
     box-shadow:0px 1px 2px 5px rgb(192, 192, 192);
     position:relative;
@@ -233,8 +230,7 @@ text-align:center;
     -ms-display:flex;
     -moz-display:flex;
     -webkit-display:flex;
-    width:1380px;
-   max-width:1380px;
+    width:1350px;
     height:80px;
     background: rgb(192, 192, 192);
 }
@@ -251,8 +247,7 @@ text-align:center;
 }
 .post1{
     border:1px solid rgb(192, 192, 192);
-   width:650px;
-   max-width: 650px;
+   width:600px;
     height:220px;
     position: relative;
     top:5px;
@@ -284,7 +279,6 @@ text-align:center;
 {
     border:1px solid transparent;
     width:950px;
-    max-width:495px;
     height:200px;
     display:inline-block;
     position: relative;
