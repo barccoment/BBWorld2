@@ -1,6 +1,7 @@
-body{
-    background: rgb(255, 255, 255);
-}
+body {
+
+    background-color: #fff;
+  }
 
 /*max-height:1500px*/
 .header{
@@ -10,17 +11,22 @@ body{
     display:flex;
     position:relative;
     height:180px;
-   max-width:1330px;
+   width:100%;
     border: 1px solid rgb(0, 0, 0);
     overflow:hidden;
     padding:0px;
-    margin:2px;
+    margin:4px;
     justify-content:space-between;
     background:url("image/blue.jpg");
     border-radius:20px;
 
 
 }
+  
+  @-ms-viewport {
+    width: device-width;
+  }
+
 .logo{
     position:relative;
     float:left;
@@ -80,14 +86,6 @@ a:visited{
 a:hover{
     color:rgb(128, 0, 128);
 }
-<<<<<<< HEAD
-@media screen and (max-width:500px)
-{
-   
-}
-=======
-
->>>>>>> origin/master
 .main-body
 {
 display:flex;
@@ -97,21 +95,40 @@ display:flex;
 position:relative;
 border:1px solid rgb(0, 0, 0);
 height:1500px;
-<<<<<<< HEAD
-max-width:1300px;
-min-width:1200px;
-=======
-width:100%;
-min-width:90%;
->>>>>>> origin/master
+width:97%;
 border-radius:20px;
 overflow:hidden;
 flex-flow: row nowrap;
 -ms-flex-flow:row nowrap;
 justify-content: space-between;
+overflow:none;
 padding:20px;
 
 }
+@media (min-width: 576px) {
+    .main-body {
+      max-width: 1330px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .main-body {
+      max-width: 1330px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .main-body{
+      max-width: 1330px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .main-body {
+      max-width: 1330px;
+    }
+  }
+  
 .left
 {
     border:1px solid transparent;
@@ -128,12 +145,10 @@ padding:20px;
     border:1px solid transparent;
     border-radius:20px;
     width:600px;
-    min-width:500px;
     height:1500px;
     box-shadow:0px 1px 2px 5px rgb(192, 192, 192);
     position:relative;
     left:3px;
-    overflow:auto;
 }
 .right
 {
@@ -233,7 +248,7 @@ text-align:center;
     -ms-display:flex;
     -moz-display:flex;
     -webkit-display:flex;
-    width:1340px;
+    width:100%;
     height:80px;
     background: rgb(192, 192, 192);
 }
@@ -251,7 +266,6 @@ text-align:center;
 .post1{
     border:1px solid rgb(192, 192, 192);
     width:600px;
-    min-width:500px;
     height:220px;
     position: relative;
     top:5px;
@@ -261,6 +275,7 @@ text-align:center;
     -webkit-display:flex;
     border-radius:10px;
 }
+
 .ads5{
     border:1px solid transparent;
     height: 1000px;
@@ -282,7 +297,6 @@ text-align:center;
 {
     border:1px solid transparent;
     width:495px;
-    min-width:400px;
     height:200px;
     display:inline-block;
     position: relative;
@@ -316,13 +330,7 @@ left:550px;
 .container
 {
  border:1px solid rgb(255, 255, 255);
-<<<<<<< HEAD
- max-width:1330px;
-min-width:1200px;
-=======
- width:97%;
-    min-width:90%;
->>>>>>> origin/master
+ 
  height:3000px;
  display:flex;
  -ms-display:flex;
@@ -336,7 +344,32 @@ min-width:1200px;
  border-radius:20px;
  padding:20px;
  overflow:hidden;
-}
+    width: 100%;
+  }
+  
+  @media (min-width: 576px) {
+    .container {
+      max-width: 1330px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 1330px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 1330px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1330px;
+    }
+  }
 .left_main
 { 
     border:1px solid rgb(255, 255, 255);
