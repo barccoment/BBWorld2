@@ -233,6 +233,8 @@ text-align:center;
     width:1350px;
     height:80px;
     background: rgb(192, 192, 192);
+    overflow-style:hidden;
+    -ms-overflow-style:hidden;
 }
 .copyright{
     width:700px;
@@ -379,8 +381,9 @@ left:550px;
 -moz-display:flex;
 -webkit-display:flex;
     flex-flow:row wrap;
-    overflow:hidden;
+    overflow-style:hidden;
     padding:10px;
+    -ms-overflow-style: hidden;
 
 
 }
